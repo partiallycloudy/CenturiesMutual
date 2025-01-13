@@ -1,59 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- [Previous head section remains the same] -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centuries Mutual Insurance Brokerage</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <style>
-        .gradient-bg {
-            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
-        }
-        .service-card:hover {
-            transform: translateY(-5px);
-        }
-        .overlay-pattern {
-            background-image: linear-gradient(45deg, rgba(6, 78, 59, 0.05) 25%, transparent 25%),
-                            linear-gradient(-45deg, rgba(6, 78, 59, 0.05) 25%, transparent 25%),
-                            linear-gradient(45deg, transparent 75%, rgba(6, 78, 59, 0.05) 75%),
-                            linear-gradient(-45deg, transparent 75%, rgba(6, 78, 59, 0.05) 75%);
-            background-size: 20px 20px;
-            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-        }
-    </style>
+    <title>Ether Bonds</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans antialiased">
-    <!-- [Previous navigation section remains the same] -->
-    <nav class="gradient-bg text-white border-b border-green-700">
+<body class="bg-gray-50">
+    <nav class="bg-white shadow">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <div class="flex items-center space-x-8">
-                    <span class="text-2xl font-bold tracking-tight">Centuries Mutual</span>
-                    <div class="hidden md:flex space-x-6">
-                    </div>
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="Oak tree and Acorns logo.jpeg" alt="Acorn Logo" class="w-10 h-10 mr-4"> 
+                    <div class="text-2xl font-bold text-green-900">Ether Bonds</div>
                 </div>
-                <div class="flex items-center space-x-4">
-                    <a href="#" class="text-sm font-medium hover:text-green-200">Client Portal</a>
-                    <button class="bg-white text-green-800 px-4 py-2 rounded text-sm font-semibold hover:bg-green-50 transition-colors duration-200">Contact Us</button>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-blue-900">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-900">Products</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-900">About</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-900">Research</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-900">Contact</a>
+                    <a href="#" class="bg-green-900 text-white px-4 py-2 rounded">Investor Login</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- [Previous hero section remains the same] -->
-<div class="relative bg-green-900 overlay-pattern">
-        <div class="absolute inset-0 bg-gradient-to-r from-green-900 to-transparent"></div>
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24"> 
-    <div class="max-w-md">
-<img src="Winter Landscape by by Julius Arthur Thiele (1841-1919).jpeg" alt="Winter Landscape" class="rounded-full object-cover w-full h-full">
-        <h1 class="text-4xl font-bold text-white leading-tight mb-6">Protecting Your Legacy for Generations</h1>
-        <p class="text-lg text-green-100 mb-8 leading-relaxed">Decades of expertise in crafting comprehensive insurance solutions for businesses and individuals. Experience the difference of working with a broker who truly understands your needs.</p>
-        <div class="flex space-x-4"> 
+    <!-- Hero Section -->
+    <div class="relative bg-green-900">
+        <div class="absolute inset-0">
+            <img src="retro deer.png" class="w-full h-full object-cover opacity-20">
         </div>
-                    <button class="bg-white text-green-900 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-200">Schedule a Consultation</button>
-                    <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-900 transition-colors duration-200">Learn More</button>
-                </div>
+        <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl">Insurance-Linked Securities Investment</h1>
+            <p class="mt-6 text-xl text-blue-100 max-w-3xl">Access uncorrelated returns through insurance-linked securities.</p>
+            <div class="mt-10">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-white hover:bg-gray-50">
+                    Learn More - Investment Linked Securities
+                </a>
             </div>
         </div>
     </div>
